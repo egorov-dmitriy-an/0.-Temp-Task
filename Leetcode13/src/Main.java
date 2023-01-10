@@ -26,7 +26,7 @@ public class Main {
         ArrayList<Integer> num2 = new ArrayList<>();
         int k = 1;
         for (int i = 0; i < num.size(); i++) {
-            if (num.get(i) < num.get(i + 1)) {
+            if (i < (num.size() - 1) && num.get(i) < num.get(i + 1)) {
                 switch (num.get(i + 1)) {
                     case 5:
                         rom += 4;
@@ -57,7 +57,7 @@ public class Main {
                 }
             }
             else {
-                rom = +num.get(i);
+                rom += num.get(i);
             }
         }
         return rom;
