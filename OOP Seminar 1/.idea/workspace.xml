@@ -4,21 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3ec18c-3c36-4a72-9872-3d75e9565870" name="Changes" comment="Edit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="030af8d1-b300-4ceb-921e-b392e6dcc828" name="Changes" comment="edit">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IzDo7GRSDT2N2Lqt6GpIMxOT78" />
+  <component name="ProjectId" id="2K8mDCeh3O6FFAfG7TrGGz7NRhF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,57 +37,30 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владислав/Desktop/2. Пакет Digital-master/0. Дополнительно/1. Home_work/0.-Temp-Task&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Владислав/Desktop/2. Пакет Digital-master/0. Дополнительно/1. Home_work&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="0.-Temp-Task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="0.-Temp-Task" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f3ec18c-3c36-4a72-9872-3d75e9565870" name="Changes" comment="Sem2Task2.4" />
-      <created>1671175689400</created>
+      <changelist id="030af8d1-b300-4ceb-921e-b392e6dcc828" name="Changes" comment="" />
+      <created>1673364462184</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671175689400</updated>
+      <updated>1673364462184</updated>
     </task>
-    <task id="LOCAL-00001" summary="Edit">
-      <created>1673949918590</created>
+    <task id="LOCAL-00001" summary="edit">
+      <created>1673385730965</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1673949918590</updated>
+      <updated>1673385730965</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sem2Task2.4" />
-    <MESSAGE value="Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>
