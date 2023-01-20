@@ -2,8 +2,6 @@
  * Класс - Дедушка
  */
 class Grandpa extends Man{
-    int age;
-    String name;
 
     /**
      * Конструктор создания экзепляра класса

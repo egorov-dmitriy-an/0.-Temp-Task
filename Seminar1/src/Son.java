@@ -30,8 +30,8 @@ class Son extends Man {
     }
 
     List addFatherList() {
-        List<String> fath = Arrays.asList(name, father);
-        return fath;
+        List<String> fat = Arrays.asList(name, father);
+        return fat;
     }
 
     List addGrandpaList(){

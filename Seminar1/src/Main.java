@@ -26,9 +26,19 @@ class Main {
         sons.add(son3.addGrandpaList());
         fathers.add(son3.addFatherList());
 
+        System.out.println("Grandsons of " + grandpa.name);
+        grandpa.showGrandson(sons);
         System.out.println();
-        System.out.println("Arrays from fathers" + fathers);
+
+        System.out.println("Sons of " + grandpa.name);
+        grandpa.showSon(fathers);
         System.out.println();
-        System.out.println("Arrays from grandpa" + sons);
+
+        System.out.println("Sons of " + father1.name);
+        father1.showSon(fathers);
+        System.out.println();
+
+        System.out.println("Sons of " + father2.name);
+        father2.showSon(fathers);
     }
 }
