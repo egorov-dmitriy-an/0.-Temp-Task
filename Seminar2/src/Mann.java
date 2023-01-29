@@ -1,8 +1,5 @@
-public interface Mann {
-    void getAge();
-    default void getAge2(){
+import java.util.List;
 
-    }
-    void getName();
+public interface Mann {
     void showInfo();
-}
+ }
