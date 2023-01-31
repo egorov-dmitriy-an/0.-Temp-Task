@@ -13,6 +13,7 @@ public class Son implements Mann {
 
     /**
      * Конструктор создания экзепляра класса
+     *
      * @param name    Имя сына
      * @param age     Возраст сына
      * @param grandpa Имя дедушки
@@ -36,14 +37,14 @@ public class Son implements Mann {
     /**
      * Метод добавления пары сын-отец
      */
-    List <String> addFatherList() {
-        return(Arrays.asList(name, father));
+    List<String> addFatherList() {
+        return (Arrays.asList(name, father));
     }
 
     /**
      * Метод добавления пары внук-дед
      */
-    List <String> addGrandpaList(){
+    List<String> addGrandpaList() {
         return (Arrays.asList(name, grandpa));
     }
 }

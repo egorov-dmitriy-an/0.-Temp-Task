@@ -31,6 +31,13 @@ public class Father implements Mann {
     }
 
     /**
+     * Метод добавления пары сын-отец
+     */
+    List <String> addFatherList() {
+        return (Arrays.asList(name, grandpa));
+    }
+
+    /**
      * Метод показывает информацию о сыновьях человека
      */
     void showSon(List<List<String>> sonList) {
@@ -42,12 +49,5 @@ public class Father implements Mann {
             }
         }
         if (!status) System.out.println(name + " has no sons!");
-    }
-
-    /**
-     * Метод добавления пары сын-отец
-     */
-    List <String> addFatherList() {
-        return (Arrays.asList(name, grandpa));
     }
 }
