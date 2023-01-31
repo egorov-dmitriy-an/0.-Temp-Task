@@ -48,7 +48,6 @@ public class Father implements Mann {
      * Метод добавления пары сын-отец
      */
     List <String> addFatherList() {
-        List<String> fat = Arrays.asList(name, grandpa);
-        return fat;
+        return (Arrays.asList(name, grandpa));
     }
 }
