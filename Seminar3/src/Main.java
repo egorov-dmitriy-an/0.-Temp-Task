@@ -3,8 +3,8 @@ import java.util.List;
 
 class Main {
     public static void main(String[] args) {
-        List<List> fathers = new ArrayList<List>();
-        List<List> sons = new ArrayList<List>();
+        List<List<String>> fathers = new ArrayList<>();
+        List<List<String>> sons = new ArrayList<>();
 
         Grandpa grandpa = new Grandpa("Anatoliy", 67);
 
