@@ -7,8 +7,7 @@ public class DatabaseHandler extends Configs{
 
     public Connection getDbConnection()
             throws ClassNotFoundException, SQLException{
-        String connectionString = "jdbc:mysql//" + dbHost + ":"
-                + dbPort + "/" + dbName;
+        String connectionString = "jdbc:mysql//localhost:3306/java_schema";
         Class.forName("com.mysql.jdbc.Driver");
 
         dbConnection = DriverManager.getConnection(connectionString,
