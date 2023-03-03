@@ -1,24 +1,41 @@
 import java.sql.*;
 public class Program {
 
-    public static void main(String args[]) throws SQLException {
-
+    public static void main(String[] args) throws SQLException {
         String request_sql;
         Request req = new Request();
+        PreparedStatement preStat;
 
-        /* // Создадим таблицу sales
+        //создание подключения к базе данных MySQL с помощью JDBC
+        Connection connection = GetConnection.getConn();
+
+        // 1. Создадим таблицу
+        /*
         request_sql = req.creatTableSales;
-        System.out.println(request_sql);
-        PostReq.postReq(request_sql);
+        preStat = connection.prepareStatement(request_sql);
+        preStat.executeUpdate();
+        System.out.println("Table sales create");
+        */
 
-        // Заполним таблицу sales
+        //Заполним таблицу
+        /*
         request_sql = req.insertTableSales;
-        System.out.println(request_sql);
-        PostReq.postReq(request_sql);*/
+        preStat = connection.prepareStatement(request_sql);
+        preStat.executeUpdate();
+        System.out.println("Table sales insert");
+        */
 
-        // Выведем запрос
+        /* 2.  Для данных таблицы “sales” укажите тип заказа в зависимости от кол-ва :
+        меньше 100  	-  Маленький заказ/Small order
+        от 100 до 300   -  Средний заказ/Average order
+        больше 300      -  Большой заказ/Large order
+        Выполним запрос.
+        */
+
         request_sql = req.range;
-        ResultSet result = GetReq.getReq(request_sql);
+        preStat = connection.prepareStatement(request_sql);
+        ResultSet result = preStat.executeQuery();
+        System.out.println("Result for request:");
         PrintResult.printTableSales(result);
     }
 }

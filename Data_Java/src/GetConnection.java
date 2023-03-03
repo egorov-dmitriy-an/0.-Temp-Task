@@ -1,7 +1,8 @@
 import java.sql.*;
 import java.util.Properties;
-public class GetReq {
-    public static ResultSet getReq(String sql) throws SQLException {
+
+public class GetConnection {
+    public static Connection getConn() throws SQLException {
         //URL сервера базы данных MySQL
         String url = "jdbc:mysql://localhost:3306/seminar2home_java";
 
@@ -11,12 +12,6 @@ public class GetReq {
         props.setProperty("password", "5150");
 
         //создание подключения к базе данных MySQL с помощью JDBC
-        Connection conn = DriverManager.getConnection(url, props);
-
-        //создание объекта PreparedStatement для выполнения запроса
-        PreparedStatement preStat = conn.prepareStatement(sql);
-
-        ResultSet result = preStat.executeQuery();
-        return result;
+        return DriverManager.getConnection(url, props);
     }
 }
