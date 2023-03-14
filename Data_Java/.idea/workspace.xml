@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d4cc027-81db-40bc-b0fe-e62ed9b042bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/seminar2home_java.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12312.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Java/GetReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Java/PostReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Java/PrintResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Java/PrintResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Java/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Java/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data_Java/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Java/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostReq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/.idea/libraries/mysql_connector_j_8_0_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/out/production/Data_base_seminar2/Configs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/out/production/Data_base_seminar2/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/out/production/Data_base_seminar2/DatabaseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/out/production/Data_base_seminar2/MySQLeJdbcExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/src/Configs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/src/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/src/DatabaseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_base_seminar2/src/MySQLeJdbcExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +43,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
