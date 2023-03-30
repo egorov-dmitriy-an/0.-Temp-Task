@@ -1,24 +1,18 @@
-class Main
-{
-    public static void printList(Node head)
-    {
+class Main {
+    public static void printList(Node head) {
         Node ptr = head;
-        while (ptr != null)
-        {
-            System.out.print(ptr.data + " > ");
+        while (ptr != null) {
+            System.out.print(ptr.data + " ");
             ptr = ptr.next;
         }
-
         System.out.println("null");
     }
 
-    public static Node reverse(Node head)
-    {
+    public static Node revert(Node head) {
         Node previous = null;
         Node current = head;
 
-        while (current != null)
-        {
+        while (current != null) {
             Node next = current.next;
             current.next = previous;
             previous = current;
@@ -27,16 +21,14 @@ class Main
         return previous;
     }
 
-    public static void main(String[] args)
-    {
-        int[] keys = { 1, 2, 3, 4, 5, 6 };
+    public static void main(String[] args) {
+        int[] key = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         Node head = null;
-        for (int i = keys.length - 1; i >= 0; i--) {
-            head = new Node(keys[i], head);
+        for (int i = key.length - 1; i >= 0; i--) {
+            head = new Node(key[i], head);
         }
-
-        head = reverse(head);
+        head = revert(head);
         printList(head);
     }
 }
