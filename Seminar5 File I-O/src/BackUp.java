@@ -7,9 +7,9 @@ import java.nio.file.Paths;
 
 public class BackUp {
     public static void main(String[] args) throws IOException {
-        Path path = Files.createDirectory(Path.of("./backup"));
-//        System.out.println(path);
-        String s = path.toString();
+        Path directory = Files.createDirectory(Paths.get("./backup"));
+//        System.out.println(directory);
+        String s = directory.toString();
 //        System.out.println(s);
 
         Path test = Paths.get("./sample04.txt");
