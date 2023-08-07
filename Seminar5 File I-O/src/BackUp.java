@@ -13,7 +13,6 @@ public class BackUp {
 //        System.out.println(s);
 
         Path test = Paths.get("./sample04.txt");
-        File test2 = Paths.get("./sample04.txt");
 
         s = s + "/sample04.txt";
         System.out.println(s);
